@@ -1,33 +1,10 @@
+import java.math.BigInteger;
 import java.util.*;
 import java.util.stream.Stream;
 
 public class WelcomePlanet {
-//    public static void main(String[] args) {
-////        Stream.of("d2","a2","b1","b3","c").map(s->{
-////            System.out.println("map: "+s); return s.toUpperCase();
-////        }).anyMatch(s-> {System.out.println("anymatch: "+s); return s.startsWith("A");});
-//        TreeSet<Integer> tree = new TreeSet<>();
-//        tree.add(2);
-//        tree.add(3);
-//        tree.add(7);
-//        tree.add(5);
-//        SortedSet<Integer> sort = tree.subSet(1,7);
-//        sort.add(4);
-//        sort.add(6);
-//        for(Integer i:sort){
-//            System.out.println(i);
-//        }
-//    }
 
-    public static void main(int[] args) {
-        System.out.println("a");
-    }
-
-    public static void main(String[][] args) {
-        System.out.println("b");
-    }
-
-    public static void main(String... args) {
+    public static void main(String[] args) {
 //        System.out.println("c");
 //        Set hashset = new HashSet();
 //        hashset.add("One");
@@ -66,16 +43,7 @@ public class WelcomePlanet {
 //        };
 //        t.start();
 //        }
-        System.out.println(increase());
-    }
+        System.out.println(Long.parseLong("9999999999"));
 
-    public static synchronized int increase() {
-        try {
-            return 3;
-        } catch (Exception e) {
-            return 2;
-        } finally {
-            return 1;
-        }
     }
 }
