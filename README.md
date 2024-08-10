@@ -1,4 +1,4 @@
-# **Online Product Ordering Service**
+# **Online Shopping Service**
   
 In this project, I have developed a microservices-based test-driven online shopping platform to order a product using Spring Boot. 
 
