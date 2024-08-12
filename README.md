@@ -16,8 +16,7 @@ Database: MySQL
 
 ## **Order Service**
 
-Places order and fetches the order details. To place order, I have created DTO object of Line Items and created a One-to-Many relationship with Line Items table. I have used PostGreSQL
-to support the CRUD operations.
+Places order and fetches the order details. To place order, I have created DTO object of Line Items and created a One-to-Many relationship with Line Items table.
 
 Database: MySQL
 
